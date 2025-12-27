@@ -23,12 +23,12 @@ include_once('templates/header.php');
                         <?= $post['title'] ?>
                     </a>
                 </h2>
-                <p class="post-description" <?=$post['description']?>>
-                    <div class="tags-container"></div>
-                    <?php foreach($post['tags'] as $tag): ?>
-                        <a href="#"><?= $tag ?></a>
-                    <?php endforeach; ?>  
-                </p>
+                <p class="post-description"> <?=$post['description']?></p>
+                    <div class="tags-container">
+                        <?php foreach($post['tags'] as $tag): ?>
+                            <a href="#"><?= $tag ?></a>
+                        <?php endforeach; ?>
+                    </div>  
             </div>  
         <?php endforeach; ?>     
     </div>
