@@ -5,7 +5,7 @@
       'id' => 1,
       'title' => 'Programando em PHP',
       'description' => 'Neste post você vai aprender tudo que precisa para ser um bom programador de PHP!',
-      'tags' => ['Programação', 'PHP', 'lógica de programação'],
+      'tags' => ['Programação', 'PHP', 'Lógica de programação'],
       'img' => 'prog-1.jpg'
     ],
     [
